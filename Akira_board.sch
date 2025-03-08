@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Akira_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -360,7 +359,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2450 2450 2450
 $Comp
-L Connector:AVR-ISP-6 J1
+L Akira_board-rescue:AVR-ISP-6-Connector J1
 U 1 1 63DFD37A
 P 5050 10450
 F 0 "J1" H 4771 10546 50  0000 R CNN
@@ -1095,8 +1094,6 @@ F 3 "" H 4850 5200 50  0001 C CNN
 	1    4850 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 1150 6000 0    394  ~ 0
-MAKE SURE TO ADD PINS FOR MOUSE SENSOR
 Text Notes 7450 9400 0    50   ~ 0
 Trackball Pins
 $Comp

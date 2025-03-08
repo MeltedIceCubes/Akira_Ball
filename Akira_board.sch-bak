@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Digikey_328P-PU:ATMEGA328P-PU-ND U1
+L Akira_board-rescue:ATMEGA328P-PU-ND-Digikey_328P-PU U1
 U 1 1 63DA4C15
 P 2950 3150
 F 0 "U1" H 3228 3128 60  0000 L CNN
@@ -438,7 +438,7 @@ F 3 "~" H 5650 5360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L kailh_microswitch:Kailh_MicroSwitch SW_M_1_1
+L Akira_board-rescue:Kailh_MicroSwitch-kailh_microswitch SW_M_1_1
 U 1 1 63F77967
 P 5400 3100
 F 0 "SW_M_1_1" V 5728 3188 50  0000 C CNN
@@ -811,7 +811,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3300 5100 3300
 $Comp
-L kailh_microswitch:Kailh_MicroSwitch SW_M_1_2
+L Akira_board-rescue:Kailh_MicroSwitch-kailh_microswitch SW_M_1_2
 U 1 1 63FE949F
 P 6450 3100
 F 0 "SW_M_1_2" V 6778 3188 50  0000 C CNN
@@ -838,7 +838,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3300 6150 3300
 $Comp
-L kailh_microswitch:Kailh_MicroSwitch SW_M_2_1
+L Akira_board-rescue:Kailh_MicroSwitch-kailh_microswitch SW_M_2_1
 U 1 1 63FF4B7E
 P 5400 3850
 F 0 "SW_M_2_1" V 5728 3938 50  0000 C CNN
@@ -865,7 +865,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 4050 5100 4050
 $Comp
-L kailh_microswitch:Kailh_MicroSwitch SW_M_2_2
+L Akira_board-rescue:Kailh_MicroSwitch-kailh_microswitch SW_M_2_2
 U 1 1 63FF4B8D
 P 6450 3850
 F 0 "SW_M_2_2" V 6778 3938 50  0000 C CNN
@@ -969,8 +969,6 @@ Text GLabel 6900 1650 1    50   Input ~ 0
 COL1
 Text GLabel 5850 1650 1    50   Input ~ 0
 COL0
-Text GLabel 1650 4000 3    50   Input ~ 0
-VK_A
 Text GLabel 2300 4050 0    50   Input ~ 0
 VK_B
 Text GLabel 2300 3250 0    50   Input ~ 0
@@ -985,8 +983,6 @@ Text GLabel 2300 3850 0    50   Input ~ 0
 ROW2
 Text GLabel 2300 4150 0    50   Input ~ 0
 RING_B
-Text GLabel 1800 4000 3    50   Input ~ 0
-RING_A
 Wire Wire Line
 	2300 4050 2450 4050
 Wire Wire Line
@@ -1099,10 +1095,6 @@ F 3 "" H 4850 5200 50  0001 C CNN
 	1    4850 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 3950 1800 3950
-Wire Wire Line
-	1800 3950 1800 4000
 Text Notes 1150 6000 0    394  ~ 0
 MAKE SURE TO ADD PINS FOR MOUSE SENSOR
 Text Notes 7450 9400 0    50   ~ 0
@@ -1188,11 +1180,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 3550 1500 3500
 Wire Wire Line
-	1800 3950 1650 3950
-Wire Wire Line
-	1650 3950 1650 4000
-Connection ~ 1800 3950
-Wire Wire Line
 	2300 3350 2450 3350
 Wire Wire Line
 	1650 3650 1650 3700
@@ -1219,4 +1206,17 @@ Wire Wire Line
 Connection ~ 1950 3450
 Wire Wire Line
 	1950 3450 2450 3450
+Text GLabel 1250 3050 0    50   Input ~ 0
+VK_A
+Text GLabel 1250 3200 0    50   Input ~ 0
+RING_A
+Wire Wire Line
+	1250 3200 1300 3200
+Wire Wire Line
+	1300 3200 1300 3050
+Wire Wire Line
+	1300 3050 1250 3050
+Wire Wire Line
+	2450 3050 1300 3050
+Connection ~ 1300 3050
 $EndSCHEMATC
