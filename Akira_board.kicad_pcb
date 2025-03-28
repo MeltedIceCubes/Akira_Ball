@@ -9680,7 +9680,7 @@
 	(footprint "AkiraBallParts:Encoder_Ring"
 		(layer "F.Cu")
 		(uuid "911a7421-7aac-491e-8ec4-d074e3a3b5ba")
-		(at 139.44 -7.91)
+		(at 150 100)
 		(property "Reference" "SW_R_1"
 			(at 0.825 -1.925 0)
 			(layer "F.SilkS")
@@ -17441,5 +17441,36 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 200 150)
+		(end 100 50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "11bd14f1-8b72-4f2c-8646-fbdfca943719")
+	)
+	(gr_line
+		(start 200 50)
+		(end 100 150)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "1b76867a-7de1-4861-8435-440bc6c4579d")
+	)
+	(gr_rect
+		(start 100 50)
+		(end 200 150)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "945609b2-777f-4f35-8333-b28858ba7181")
 	)
 )

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Akira_board-rescue")(type "KiCad")(uri "${KIPRJMOD}/Akira_board-rescue.kicad_sym")(options "")(descr ""))
-)
