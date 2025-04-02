@@ -318,4 +318,15 @@
 		(remove_unused_layers no)
 		(uuid "d5993170-c1f9-4009-88f3-2ce8fe92023e")
 	)
+	(model "${KIPRJMOD}/KiCAD_AkiraBallParts/3D models/PMW3360 v12.step"
+		(offset
+			(xyz 0 2 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
