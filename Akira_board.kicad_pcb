@@ -19726,6 +19726,17 @@
 		(layer "User.3")
 		(uuid "142eb7a5-4528-4da9-a054-b67c28db04be")
 	)
+	(gr_rect
+		(start 95 114.5)
+		(end 109.5 147)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.3")
+		(uuid "428d46bf-9a9a-4d71-b2fd-c989848f51e0")
+	)
 	(gr_line
 		(start 95 147)
 		(end 142 100)
