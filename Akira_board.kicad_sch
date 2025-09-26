@@ -4968,7 +4968,7 @@
 		)
 	)
 	(junction
-		(at 35.56 45.72)
+		(at 33.02 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0110b0c1-c998-4699-bd53-122d764c37a1")
@@ -5088,10 +5088,16 @@
 		(uuid "5f46fb4d-cfb7-4f27-8425-06f00058ca04")
 	)
 	(junction
-		(at 35.56 55.88)
+		(at 33.02 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63c4bad0-c357-46e0-b51a-d627fd507248")
+	)
+	(junction
+		(at 45.72 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "777cb151-516f-4899-bebc-59ce04a13200")
 	)
 	(junction
 		(at 44.45 162.56)
@@ -5148,7 +5154,7 @@
 		(uuid "a6e0feab-ff56-40e3-a10f-249cf3fd05d7")
 	)
 	(junction
-		(at 25.4 50.8)
+		(at 22.86 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a93ab462-029e-43ec-a5b6-1bfce8afc802")
@@ -5226,6 +5232,12 @@
 		(uuid "e5dd29b9-cec2-42f6-811f-9804c8f3bd41")
 	)
 	(junction
+		(at 41.91 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef474d81-affa-4200-9a79-f542b7ee1db7")
+	)
+	(junction
 		(at 321.31 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5278,16 +5290,6 @@
 	(no_connect
 		(at 119.38 71.12)
 		(uuid "e24ac77f-9ed6-4c9c-a9dc-362818921d22")
-	)
-	(wire
-		(pts
-			(xy 44.45 49.53) (xy 44.45 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0022c6b5-0cd2-4f52-b868-f5f170037ae5")
 	)
 	(wire
 		(pts
@@ -5541,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 45.72) (xy 33.02 45.72)
+			(xy 33.02 27.94) (xy 30.48 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5851,7 +5853,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 44.45 55.88)
+			(xy 33.02 38.1) (xy 41.91 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6091,7 +6093,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 55.88) (xy 35.56 55.88)
+			(xy 30.48 38.1) (xy 33.02 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6211,7 +6213,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 45.72) (xy 25.4 50.8)
+			(xy 22.86 27.94) (xy 22.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6281,6 +6283,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 48.26) (xy 41.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faf6938-dfb3-4117-90ee-2df6968ed6bf")
+	)
+	(wire
+		(pts
 			(xy 132.08 162.56) (xy 132.08 173.99)
 		)
 		(stroke
@@ -6321,7 +6333,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 44.45 52.07)
+			(xy 60.96 52.07) (xy 41.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6551,6 +6563,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 43.18) (xy 45.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b03932-3f37-40bf-bcf4-7e174a645c2c")
+	)
+	(wire
+		(pts
 			(xy 58.42 149.86) (xy 58.42 185.42)
 		)
 		(stroke
@@ -6631,6 +6653,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 48.26) (xy 41.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a3c671-3d5e-4f0b-825b-33125f723fb9")
+	)
+	(wire
+		(pts
+			(xy 45.72 43.18) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d7891f-e3f7-4c4a-8ec3-2cdd105f71b6")
+	)
+	(wire
+		(pts
 			(xy 262.89 35.56) (xy 262.89 34.29)
 		)
 		(stroke
@@ -6698,6 +6740,16 @@
 			(type default)
 		)
 		(uuid "874465f8-fd34-4f27-aa5e-1a8d67d61bf0")
+	)
+	(wire
+		(pts
+			(xy 45.72 27.94) (xy 45.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878c6cbc-737a-4e18-892a-18748638ac3c")
 	)
 	(wire
 		(pts
@@ -6941,7 +6993,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 45.72) (xy 35.56 45.72)
+			(xy 33.02 27.94) (xy 45.72 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7011,7 +7063,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 45.72) (xy 35.56 46.99)
+			(xy 33.02 27.94) (xy 33.02 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7071,7 +7123,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 44.45 55.88)
+			(xy 41.91 38.1) (xy 41.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7241,7 +7293,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 35.56 54.61)
+			(xy 33.02 38.1) (xy 33.02 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7491,7 +7543,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 49.53) (xy 44.45 49.53)
+			(xy 60.96 49.53) (xy 45.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7641,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 55.88) (xy 25.4 50.8)
+			(xy 22.86 38.1) (xy 22.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7711,7 +7763,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 50.8) (xy 21.59 50.8)
+			(xy 22.86 33.02) (xy 19.05 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9729,6 +9781,26 @@
 			)
 		)
 	)
+	(global_label "CRYSTAL+"
+		(shape input)
+		(at 40.64 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8a1163c-28fb-476d-a168-7bf44ad09d6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESET"
 		(shape input)
 		(at 132.08 231.14 0)
@@ -9741,6 +9813,26 @@
 		(uuid "cce0f016-6950-488b-bfe1-d6de080f0da3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.08 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CRYSTAL-"
+		(shape input)
+		(at 40.64 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd499a09-db86-4d06-9ac7-fc36a7f7a8c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,8 +10032,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063da4c15")
-		(property "Reference" "U1"
-			(at 72.39 56.134 0)
+		(property "Reference" "ATMEGA328P1"
+			(at 77.47 84.074 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10006,6 +10098,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 73.66 62.23 0)
 			(effects
 				(font
@@ -10101,7 +10202,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "U1")
+					(reference "ATMEGA328P1")
 					(unit 1)
 				)
 			)
@@ -10246,7 +10347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063da8466")
-		(property "Reference" "J2"
+		(property "Reference" "USB1"
 			(at 30.6578 136.7282 0)
 			(effects
 				(font
@@ -10317,6 +10418,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 27.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B12"
 			(uuid "c6abb0f4-f443-4b30-9747-a46b0bee31bb")
 		)
@@ -10371,7 +10481,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "J2")
+					(reference "USB1")
 					(unit 1)
 				)
 			)
@@ -10452,6 +10562,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -10621,6 +10740,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7af914bc-e3d6-49d9-8d19-43318bfe2fcd")
 		)
@@ -10709,6 +10837,15 @@
 			)
 		)
 		(property "Wattage" "1/2"
+			(at 90.17 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 90.17 162.56 0)
 			(effects
 				(font
@@ -10813,6 +10950,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 64.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d44e6083-0c7b-4345-88c4-3c6ba0ac1c5e")
 		)
@@ -10909,6 +11055,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2dfd5bba-116e-4e53-b3fa-2cf230e0febe")
 		)
@@ -10997,6 +11152,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 81.28 168.91 0)
 			(effects
 				(font
@@ -11231,6 +11395,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a44a9c8-cc97-423d-91bd-0febf9f8ddf5")
 		)
@@ -11319,6 +11492,15 @@
 			)
 		)
 		(property "Wattage" "1/2"
+			(at 52.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -11481,7 +11663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dfd37a")
-		(property "Reference" "J1"
+		(property "Reference" "ISP1"
 			(at 113.5634 226.1616 0)
 			(effects
 				(font
@@ -11499,7 +11681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "AkiraBallParts:SKEDD_6PinConnectingHole"
 			(at 114.3 227.33 90)
 			(effects
 				(font
@@ -11553,6 +11735,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 120.65 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "96e0f31c-d46f-4b9b-95e3-1120fca07dba")
 		)
@@ -11574,7 +11765,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "J1")
+					(reference "ISP1")
 					(unit 1)
 				)
 			)
@@ -11719,7 +11910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f71fb9")
-		(property "Reference" "SW_R_1"
+		(property "Reference" "SCROLL_RING1"
 			(at 126.492 108.0516 0)
 			(effects
 				(font
@@ -11791,6 +11982,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "205f71a0-39ee-4f16-9260-d3f4114632fa")
 		)
@@ -11803,7 +12003,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "SW_R_1")
+					(reference "SCROLL_RING1")
 					(unit 1)
 				)
 			)
@@ -11890,6 +12090,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "NO"
 			(uuid "d937bc82-8bac-4124-bbe4-cc36013eefa6")
 		)
@@ -11917,7 +12126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f7a091")
-		(property "Reference" "SW_V_1"
+		(property "Reference" "KNOB1"
 			(at 121.0818 44.45 0)
 			(effects
 				(font
@@ -11987,6 +12196,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "802710c7-865c-4ca3-b417-13e0088ae150")
 		)
@@ -12005,7 +12223,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "SW_V_1")
+					(reference "KNOB1")
 					(unit 1)
 				)
 			)
@@ -12013,7 +12231,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 35.56 50.8 270)
+		(at 33.02 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12021,7 +12239,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f87dd1")
 		(property "Reference" "Y1"
-			(at 38.8874 49.6316 90)
+			(at 36.3474 31.8516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +12248,7 @@
 			)
 		)
 		(property "Value" "16MHz"
-			(at 38.8874 51.943 90)
+			(at 36.3474 34.163 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,7 +12257,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
-			(at 35.56 50.8 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12048,7 +12266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 50.8 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12057,7 +12275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 50.8 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12066,7 +12284,7 @@
 			)
 		)
 		(property "Digikey#" "535-9041-ND"
-			(at 35.56 50.8 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12293,7 @@
 			)
 		)
 		(property "Part Check" ""
-			(at 35.56 50.8 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,7 +12302,16 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 35.56 50.8 0)
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12336,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 55.88 90)
+		(at 26.67 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12117,7 +12344,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063f97362")
 		(property "Reference" "C2"
-			(at 28.0416 52.959 0)
+			(at 25.5016 35.179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12126,7 +12353,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 30.353 52.959 0)
+			(at 27.813 35.179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,7 +12362,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
-			(at 33.02 54.9148 0)
+			(at 30.48 37.1348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +12371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 55.88 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +12380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 55.88 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +12389,7 @@
 			)
 		)
 		(property "Digikey#" "BC1005CT-ND"
-			(at 29.21 55.88 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12398,7 @@
 			)
 		)
 		(property "Part Check" "x"
-			(at 29.21 55.88 0)
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,7 +12407,16 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 29.21 55.88 0)
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 26.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12205,7 +12441,7 @@
 	)
 	(symbol
 		(lib_id "Akira_board-rescue:GND-power")
-		(at 21.59 50.8 270)
+		(at 19.05 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12213,7 +12449,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063fa0560")
 		(property "Reference" "#PWR0110"
-			(at 15.24 50.8 0)
+			(at 12.7 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,7 +12458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.1958 50.927 0)
+			(at 14.6558 33.147 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +12466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 50.8 0)
+			(at 19.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,7 +12475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 50.8 0)
+			(at 19.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +12484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 50.8 0)
+			(at 19.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12270,7 +12506,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 45.72 90)
+		(at 26.67 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12278,7 +12514,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063fa3eec")
 		(property "Reference" "C1"
-			(at 28.0416 42.799 0)
+			(at 25.5016 25.019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12287,7 +12523,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 30.353 42.799 0)
+			(at 27.813 25.019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,7 +12532,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm"
-			(at 33.02 44.7548 0)
+			(at 30.48 26.9748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12305,7 +12541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 45.72 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12314,7 +12550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 45.72 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12323,7 +12559,7 @@
 			)
 		)
 		(property "Digikey#" "BC1005CT-ND"
-			(at 29.21 45.72 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12332,7 +12568,7 @@
 			)
 		)
 		(property "Part Check" "x"
-			(at 29.21 45.72 0)
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12341,7 +12577,16 @@
 			)
 		)
 		(property "Wattage" ""
-			(at 29.21 45.72 0)
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 26.67 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,6 +12682,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 106.68 76.2 0)
 			(effects
 				(font
@@ -12541,6 +12795,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 43.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "701a11b9-7138-4c1f-baac-c96bb43c6fb0")
 		)
@@ -12629,6 +12892,15 @@
 			)
 		)
 		(property "Wattage" "1/2"
+			(at 33.02 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 33.02 218.44 0)
 			(effects
 				(font
@@ -12733,6 +13005,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "COM"
 			(uuid "bb5f5db5-558f-4a4f-a587-12f07278ea8b")
 		)
@@ -12824,6 +13105,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 133.35 76.2 0)
 			(effects
 				(font
@@ -12993,6 +13283,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 43.18 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "921b4837-0d97-4bc7-ba91-73da3e65c037")
 		)
@@ -13081,6 +13380,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 114.3 87.63 0)
 			(effects
 				(font
@@ -13188,6 +13496,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f53a5eeb-4dae-4f8a-93b2-718d0748647d")
 		)
@@ -13276,6 +13593,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 140.97 87.63 0)
 			(effects
 				(font
@@ -13375,6 +13701,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 133.35 95.25 0)
 			(effects
 				(font
@@ -13674,6 +14009,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 106.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c76c86ec-c2a8-461f-abab-3c588575a679")
 		)
@@ -13762,6 +14106,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 64.77 232.41 0)
 			(effects
 				(font
@@ -13866,6 +14219,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 76.2 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "673ac84a-c8b7-4eb5-b2e6-2c3e86986a59")
 		)
@@ -13954,6 +14316,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 87.63 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 87.63 232.41 0)
 			(effects
 				(font
@@ -14318,6 +14689,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48bb3c98-6348-41dd-aef2-fc8073863a28")
 		)
@@ -14414,6 +14794,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 124.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "85361d78-910a-4812-aa57-7fab15b89552")
 		)
@@ -14439,7 +14828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b1c1dc3-ebc6-45fa-9f9e-132090aea03e")
-		(property "Reference" "U2"
+		(property "Reference" "VR1"
 			(at 231.14 26.67 0)
 			(effects
 				(font
@@ -14510,6 +14899,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C59200"
+			(at 231.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69fdbd76-58ab-4beb-8382-cb9a27997405")
 		)
@@ -14528,7 +14926,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "U2")
+					(reference "VR1")
 					(unit 1)
 				)
 			)
@@ -14608,6 +15006,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 262.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 262.89 39.37 0)
 			(effects
 				(font
@@ -14713,6 +15120,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a047b438-26b2-492b-b6e3-6173ee4ed4ee")
 		)
@@ -14798,6 +15214,15 @@
 			)
 		)
 		(property "Wattage" "1/2"
+			(at 298.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 298.45 187.96 0)
 			(effects
 				(font
@@ -14895,6 +15320,15 @@
 			)
 		)
 		(property "Wattage" "x"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 163.83 97.79 0)
 			(effects
 				(font
@@ -15055,7 +15489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39ab424f-9e9f-47bb-b2a2-241e41fa68cb")
-		(property "Reference" "U5"
+		(property "Reference" "LS2"
 			(at 375.92 26.162 0)
 			(effects
 				(font
@@ -15125,6 +15559,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C9382"
+			(at 375.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "89734911-7506-43af-8cba-d29222df0b03")
 		)
@@ -15146,7 +15589,7 @@
 		(instances
 			(project "Akira_board"
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "U5")
+					(reference "LS2")
 					(unit 1)
 				)
 			)
@@ -15356,6 +15799,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 309.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 309.88 172.72 0)
 			(effects
 				(font
@@ -15723,6 +16175,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a641a98-1a8b-4088-9f89-6a2d300f996c")
 		)
@@ -15949,6 +16410,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 198.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a44a76f-9201-47b5-917a-ad2bbe86cf33")
 		)
@@ -16104,6 +16574,15 @@
 			)
 		)
 		(property "Wattage" "x"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 163.83 46.99 0)
 			(effects
 				(font
@@ -16271,6 +16750,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 250.19 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21947148-000e-4be1-83b3-211a6341f076")
 		)
@@ -16359,6 +16847,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 129.54 170.18 0)
 			(effects
 				(font
@@ -16462,6 +16959,15 @@
 			)
 		)
 		(property "Wattage" "1/4"
+			(at 250.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 250.19 49.53 0)
 			(effects
 				(font
@@ -16633,6 +17139,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "220d19fa-90d5-4aae-879c-d4e377cd8a20")
 		)
@@ -16786,7 +17301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a23c1cf3-2a44-4476-89c9-c0a136a2d289")
-		(property "Reference" "U4"
+		(property "Reference" "LS1"
 			(at 322.58 26.162 0)
 			(effects
 				(font
@@ -16856,6 +17371,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C9382"
+			(at 322.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "54214f86-3c7f-47b7-81cf-a8937a13c1cd")
 		)
@@ -16877,7 +17401,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "U4")
+					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -17022,6 +17546,15 @@
 			)
 		)
 		(property "Wattage" "1/2"
+			(at 379.73 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 379.73 179.07 0)
 			(effects
 				(font
@@ -17454,6 +17987,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e3e6629-9e10-4843-aaf7-5680a2a116bf")
 		)
@@ -17605,7 +18147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8f5ca85-5c10-4e71-bef1-ba4c3ede41af")
-		(property "Reference" "U6"
+		(property "Reference" "LS3"
 			(at 322.58 73.152 0)
 			(effects
 				(font
@@ -17675,6 +18217,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C9382"
+			(at 322.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9a09bde5-696d-49a2-81cb-552faba0a184")
 		)
@@ -17696,7 +18247,7 @@
 		(instances
 			(project "Akira_board"
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "U6")
+					(reference "LS3")
 					(unit 1)
 				)
 			)
@@ -17776,6 +18327,15 @@
 			)
 		)
 		(property "Wattage" ""
+			(at 276.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 276.86 39.37 0)
 			(effects
 				(font
@@ -17872,6 +18432,15 @@
 			)
 		)
 		(property "Wattage" "1/2"
+			(at 365.76 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 365.76 168.91 0)
 			(effects
 				(font
@@ -18109,6 +18678,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67967eea-430f-43b7-b4d2-cb07f7695e7b")
 		)
@@ -18268,6 +18846,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 321.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4886bd3e-b510-45b9-9691-292024ebabcd")
 		)
@@ -18365,6 +18952,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 210.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60dba820-27cd-4a16-86c0-dfa0f1facb18")
 		)
@@ -18389,7 +18985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8702916-31cc-4045-a80e-790eb0b12dc1")
-		(property "Reference" "U3"
+		(property "Reference" "PMW3360"
 			(at 347.98 165.354 0)
 			(effects
 				(font
@@ -18459,6 +19055,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 347.98 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "2b67920a-ea86-4511-9a1d-86662def9a58")
 		)
@@ -18510,7 +19115,7 @@
 		(instances
 			(project ""
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "U3")
+					(reference "PMW3360")
 					(unit 1)
 				)
 			)
@@ -18525,7 +19130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec46ce20-f4df-4d1e-b76d-93596b51396e")
-		(property "Reference" "U7"
+		(property "Reference" "LS4"
 			(at 375.92 73.152 0)
 			(effects
 				(font
@@ -18595,6 +19200,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C9382"
+			(at 375.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7953a8a3-dc62-4853-a2a3-ccfe04943841")
 		)
@@ -18616,7 +19230,7 @@
 		(instances
 			(project "Akira_board"
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
-					(reference "U7")
+					(reference "LS4")
 					(unit 1)
 				)
 			)

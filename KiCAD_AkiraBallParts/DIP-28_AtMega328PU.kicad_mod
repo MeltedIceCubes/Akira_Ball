@@ -533,23 +533,12 @@
 		(remove_unused_layers no)
 		(uuid "58a238ef-5972-49ee-bcf4-3723b85f875b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W7.62mm_Socket.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/KiCAD_AkiraBallParts/3D models/atmega328-pu.stp"
 		(offset
-			(xyz 3.75 1 4)
+			(xyz 3.75 0.75 1)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 1 0.9)
 		)
 		(rotate
 			(xyz -90 0 90)

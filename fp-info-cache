@@ -1,4 +1,4 @@
-24668683392019195
+24670429172114177
 AkiraBallParts
 ADNS-9800
 
@@ -97,6 +97,13 @@ PMW3360_1
 0
 16
 16
+AkiraBallParts
+SKEDD_6PinConnectingHole
+
+
+0
+8
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

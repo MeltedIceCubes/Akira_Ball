@@ -58,26 +58,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|177075001|57749999|1d78b66e-9632-4746-8855-ba0b6557a20b|28916e42-cbd2-428a-9600-12e6c6663e56",
+        "clearance|177075002|59099998|202e5d7d-046a-46be-94c1-9b620cea8eaf|0d45acd7-66df-4332-87b4-81912ec6a915",
+        "clearance|177925001|59099998|20b2ab05-087c-4243-bde9-58fccdec56bd|202e5d7d-046a-46be-94c1-9b620cea8eaf",
+        "clearance|177925002|57750000|28916e42-cbd2-428a-9600-12e6c6663e56|e071e9f4-91ac-4e48-b320-aec1bc599b33",
+        "clearance|178774999|59100002|3a87adc9-638c-481f-9179-c2f8b8ede292|20b2ab05-087c-4243-bde9-58fccdec56bd",
+        "clearance|178775000|57750001|e071e9f4-91ac-4e48-b320-aec1bc599b33|c666b180-cb3e-460d-99d2-55b69ab204a5",
+        "clearance|179625000|59100004|b48275ca-116a-4fe2-8e8f-69c0c8df2602|3a87adc9-638c-481f-9179-c2f8b8ede292",
+        "clearance|179625002|57749998|c666b180-cb3e-460d-99d2-55b69ab204a5|e0dbffdc-d229-475a-a2a1-617e4b8d0fd4",
+        "clearance|180475001|59099999|d97f5133-685a-488c-9170-797f124847ad|b48275ca-116a-4fe2-8e8f-69c0c8df2602",
+        "clearance|180475002|57749997|e0dbffdc-d229-475a-a2a1-617e4b8d0fd4|28d123fe-0ee0-47f4-89df-1225cca2996b",
+        "clearance|181324998|57750000|28d123fe-0ee0-47f4-89df-1225cca2996b|5aee8a90-7ff3-473e-84f2-76971c54e731",
+        "clearance|181325004|59100000|fbaecf95-d612-4f87-8ec6-b55c9d15e82a|d97f5133-685a-488c-9170-797f124847ad",
+        "clearance|182175002|57750003|5aee8a90-7ff3-473e-84f2-76971c54e731|a0ec4178-9d7d-49e7-b165-a0486eb59003",
+        "clearance|182175002|59100003|2f590429-88c5-415b-8c4e-d7008df8daa1|fbaecf95-d612-4f87-8ec6-b55c9d15e82a",
+        "courtyards_overlap|154404617|66247082|9b3ede9a-fdca-41fe-9168-8bfd94b0faae|d64bbb17-4476-470c-a6ba-cf133823bf1b",
+        "courtyards_overlap|157302719|66758100|6569f80b-4fd6-48f3-8958-07d570dbecce|9b3ede9a-fdca-41fe-9168-8bfd94b0faae",
+        "courtyards_overlap|160181771|67517158|6569f80b-4fd6-48f3-8958-07d570dbecce|cb33bff8-5515-455a-8ac2-9c78921e53ca",
+        "hole_clearance|124190002|58495000|f6c12725-565c-418c-9e5e-860585fc4dac|d86393b9-0401-4f34-b8c7-98bf9f0c8a57",
+        "padstack|115380001|55954999|513b14bf-8638-4c2e-b930-9ef16c68c863|00000000-0000-0000-0000-000000000000",
+        "padstack|124190002|58495000|f6c12725-565c-418c-9e5e-860585fc4dac|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|109500000|107000000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|95f28adb-f9f9-40b2-aa4f-4142cab2d377|F.Cu",
+        "starved_thermal|122144327|55139330|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|e6e642c6-ecb8-4cfe-82ad-890aa8fa31df|F.Cu",
+        "starved_thermal|164800000|68250000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|1d3ee206-7f01-4523-9f3a-6c02f6f9388a|F.Cu",
+        "starved_thermal|176650000|59100000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|0d45acd7-66df-4332-87b4-81912ec6a915|F.Cu",
+        "starved_thermal|182600000|59100000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|2f590429-88c5-415b-8c4e-d7008df8daa1|F.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -87,7 +113,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -102,9 +128,9 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -117,7 +143,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.35,
@@ -130,7 +156,7 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.25,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.2,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -181,7 +207,12 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.16,
+        0.2,
+        0.3,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -213,6 +244,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -655,10 +694,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Production Files/PCB/Gerbers/",
+      "pos_files": "Production Files/PCB/PCBA/",
       "specctra_dsn": "",
-      "step": "C:/Users/Kye/Downloads/Test_Akira_board.step",
+      "step": "Production Files/PCB/Akira_board.step",
       "svg": "",
       "vrml": ""
     },
@@ -666,7 +705,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Production Files\\PCB\\BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -682,40 +721,16 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
           "group_by": true,
-          "label": "Value",
+          "label": "Comment",
           "name": "Value",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Part Check",
-          "name": "Part Check",
+          "label": "Designator",
+          "name": "Reference",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Wattage",
-          "name": "Wattage",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Digikey#",
-          "name": "Digikey#",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": false
         },
         {
           "group_by": false,
@@ -725,15 +740,45 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Part Check",
+          "name": "Part Check",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Wattage",
+          "name": "Wattage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey#",
+          "name": "Digikey#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
         },
         {
           "group_by": false,
@@ -751,8 +796,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
