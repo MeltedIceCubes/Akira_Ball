@@ -5218,6 +5218,17 @@
 		)
 		(uuid "105b2cbd-104d-4ec5-8482-a0b66a3a311f")
 	)
+	(text "Revision Notes: \n1. \n- Connected Volume knob Pin A to Atmega328P Pin 24\n- LS3 DIR was NCS. Fixed to be v5+"
+		(exclude_from_sim no)
+		(at 345.948 211.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15d18e4c-8628-4739-9766-045827bdb114")
+	)
 	(text "Buttons & Encoders"
 		(exclude_from_sim no)
 		(at 95.25 17.018 0)
@@ -5610,12 +5621,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d16d9c16-6dd0-4f1d-917d-cd73fd38ce18")
-	)
-	(junction
-		(at 31.75 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3242c7f-4e25-4083-80b3-32f5938fcb5b")
 	)
 	(junction
 		(at 198.12 34.29)
@@ -6196,16 +6201,6 @@
 			(type default)
 		)
 		(uuid "35dda9b1-61a2-4b88-9956-4a6f41c34e07")
-	)
-	(wire
-		(pts
-			(xy 30.48 63.5) (xy 31.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36247e24-c91d-4a0b-9055-146c6e206462")
 	)
 	(wire
 		(pts
@@ -7229,6 +7224,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 59.69) (xy 60.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb3510e-9de4-44c8-afbb-36f31f7ac1f0")
+	)
+	(wire
+		(pts
 			(xy 111.76 29.21) (xy 101.6 29.21)
 		)
 		(stroke
@@ -7486,16 +7491,6 @@
 			(type default)
 		)
 		(uuid "b091bb96-214d-4d21-808f-ddb27e5a6689")
-	)
-	(wire
-		(pts
-			(xy 60.96 59.69) (xy 31.75 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b149ee88-7bdf-4ce4-8b74-ae96e5778325")
 	)
 	(wire
 		(pts
@@ -7929,16 +7924,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 63.5) (xy 31.75 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d940b104-9f19-4156-84c8-d29e1fbcd39d")
-	)
-	(wire
-		(pts
 			(xy 125.73 92.71) (xy 125.73 73.66)
 		)
 		(stroke
@@ -8159,7 +8144,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 59.69) (xy 30.48 59.69)
+			(xy 57.15 82.55) (xy 60.96 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9166,7 +9151,7 @@
 	)
 	(global_label "RING_A"
 		(shape input)
-		(at 30.48 63.5 180)
+		(at 57.15 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9175,7 +9160,7 @@
 		)
 		(uuid "16484e1f-1cfd-4a16-8136-d057f9166a25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 63.5 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9710,29 +9695,9 @@
 			)
 		)
 	)
-	(global_label "NCS"
-		(shape input)
-		(at 307.34 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "80f5e701-edf4-4481-98fc-b86659c05073")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VK_A"
 		(shape input)
-		(at 30.48 59.69 180)
+		(at 57.15 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9741,7 +9706,7 @@
 		)
 		(uuid "8351d97a-3920-45f4-b87c-141be38151b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 59.69 0)
+			(at 57.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17228,6 +17193,71 @@
 			(project "Akira_board"
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Akira_board-rescue:+5V-power")
+		(at 307.34 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9627488c-e655-4276-9b9b-f80e1a8c8257")
+		(property "Reference" "#PWR029"
+			(at 311.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 302.9458 101.219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "905d949a-e4e7-48f8-9bfe-fc4157b8ce26")
+		)
+		(instances
+			(project "Akira_board"
+				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

@@ -128,10 +128,6 @@
           ""
         ],
         [
-          "hole_clearance|124190002|58495000|f6c12725-565c-418c-9e5e-860585fc4dac|d86393b9-0401-4f34-b8c7-98bf9f0c8a57",
-          ""
-        ],
-        [
           "padstack|115380001|55954999|513b14bf-8638-4c2e-b930-9ef16c68c863|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -558,7 +554,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -922,6 +918,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
