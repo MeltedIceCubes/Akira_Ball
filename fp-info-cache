@@ -1,4 +1,4 @@
-26790262707640538
+26792043296942448
 Akira_Ball_Parts
 ADNS-9800
 
@@ -111,6 +111,13 @@ SKEDD_6PinConnectingHole
 0
 8
 6
+Akira_Ball_Parts
+Switch SMD-4P,5.1x5.1mm
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

@@ -134,22 +134,6 @@
         [
           "padstack|124190002|58495000|f6c12725-565c-418c-9e5e-860585fc4dac|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "starved_thermal|109500000|107000000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|95f28adb-f9f9-40b2-aa4f-4142cab2d377|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|164800000|68250000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|1d3ee206-7f01-4523-9f3a-6c02f6f9388a|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|176650000|59100000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|0d45acd7-66df-4332-87b4-81912ec6a915|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|182600000|59100000|dd6be89a-f2e6-42b4-807e-593a92b2e1f3|2f590429-88c5-415b-8c4e-d7008df8daa1|F.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -896,7 +880,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "JLCPCB Part #",
+          "url": false,
+          "visible": true
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
