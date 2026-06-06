@@ -1,7 +1,7 @@
 (footprint "GM8.0"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.46 2.06 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "83bdd2dc-703d-4b34-9e14-b5be91e105b1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -66,7 +54,7 @@
 		(start -6.4 -2.95)
 		(end -6.4 2.95)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -76,7 +64,7 @@
 		(start -6.4 2.95)
 		(end 6.4 2.95)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -86,7 +74,7 @@
 		(start 6.4 -2.95)
 		(end -6.4 -2.95)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -96,7 +84,7 @@
 		(start 6.4 2.95)
 		(end 6.4 -2.95)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -129,7 +117,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9a769499-de95-44b6-963f-6abdc168e9a8")
 	)
@@ -140,7 +128,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b4bcfaa0-fdee-46ba-8edc-718eccc2c44f")
 	)
@@ -151,7 +139,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7763e786-6663-4e76-9aa5-92e6260dbfcc")
 	)
@@ -179,6 +167,7 @@
 		(remove_unused_layers no)
 		(uuid "31ed5791-d5ee-43de-a757-0396614fe7e2")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/KiCAD_AkiraBallParts/3D models/micro switch.STEP"
 		(offset
 			(xyz 0 0 6.5)
