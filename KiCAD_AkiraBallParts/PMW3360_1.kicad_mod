@@ -1,7 +1,7 @@
 (footprint "PMW3360_1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -14 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3b11963c-b991-42f4-b4c5-ed978b806b6e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -13.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b9aec2a6-3bc1-4d7e-962c-41ba8dda7b6a")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e06cf402-1127-489e-b8fb-2f7fa472781c")
 	)
@@ -125,7 +112,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "4a4d5188-ae57-405a-9600-3c485368e240")
 	)
@@ -196,7 +183,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Margin")
 		(uuid "94ceca6b-5a76-4d4d-b515-7a52778fb433")
 	)
@@ -340,6 +327,7 @@
 		(remove_unused_layers no)
 		(uuid "d5993170-c1f9-4009-88f3-2ce8fe92023e")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/KiCAD_AkiraBallParts/3D models/PMW3360 v12.step"
 		(offset
 			(xyz 0 2 2.5)

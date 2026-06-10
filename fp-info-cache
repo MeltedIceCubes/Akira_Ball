@@ -1,4 +1,4 @@
-26792043381846538
+26795640261133487
 Akira_Ball_Parts
 ADNS-9800
 
@@ -105,6 +105,13 @@ PMW3360_2
 16
 16
 Akira_Ball_Parts
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+Akira_Ball_Parts
 SKEDD_6PinConnectingHole
 
 
@@ -118,6 +125,13 @@ Switch SMD-4P,5.1x5.1mm
 0
 4
 4
+Akira_Ball_Parts
+USB_C_16P_SMD_C3025063
+
+
+0
+20
+17
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

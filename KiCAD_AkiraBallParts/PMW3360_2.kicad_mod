@@ -168,6 +168,46 @@
 		(uuid "b45f4822-8e36-4fcb-b6a9-f0162ebc288d")
 	)
 	(fp_line
+		(start -9.5 -10.38)
+		(end -9.5 10.97)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "3e2e3081-25bc-4048-b0c3-26681a53600a")
+	)
+	(fp_line
+		(start -9.5 10.97)
+		(end 9.5 10.97)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "1120c268-f8d8-4c1b-ae97-f2880718f0d4")
+	)
+	(fp_line
+		(start 9.5 -10.38)
+		(end -9.5 -10.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "b1fd2b0f-6c8f-43db-b243-dd0c472bb062")
+	)
+	(fp_line
+		(start 9.5 10.97)
+		(end 9.5 -10.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "66d74c79-8b7d-4f3b-ada8-40e54f0d8ffa")
+	)
+	(fp_line
 		(start 0 -5.66)
 		(end -5.35 -5.66)
 		(stroke
@@ -299,6 +339,123 @@
 			(justify left bottom)
 		)
 	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "30ca75ca-ab2b-4dea-82b5-08246e62c5ac")
+		(pts
+			(xy 9.5 -10.38) (xy 9.5 10.97)
+		)
+		(height 3.24)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "21.35"
+			(at 11.59 0.295 90)
+			(layer "User.1")
+			(uuid "30ca75ca-ab2b-4dea-82b5-08246e62c5ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "d9be8e3a-058d-4d6b-8951-3c7ab2347fe6")
+		(pts
+			(xy 5.97 0) (xy 5.97 10.97)
+		)
+		(height 2.69)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10.97"
+			(at 7.51 5.485 90)
+			(layer "User.1")
+			(uuid "d9be8e3a-058d-4d6b-8951-3c7ab2347fe6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "df19fd8e-86f0-40da-b3f5-80e3aa6dcd66")
+		(pts
+			(xy -9.5 10.97) (xy 9.5 10.97)
+		)
+		(height 2.23)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "19"
+			(at 0 12.05 0)
+			(layer "User.1")
+			(uuid "df19fd8e-86f0-40da-b3f5-80e3aa6dcd66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+	)
 	(pad "1" thru_hole rect
 		(at -5.35 -5.66)
 		(size 1.2 1.2)
@@ -428,4 +585,15 @@
 		(uuid "f57c31ad-dc9e-4bce-8490-8ce5099e3ab0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCAD_AkiraBallParts/3D models/PMW3360 v12.step"
+		(offset
+			(xyz 0 0 2.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

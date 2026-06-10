@@ -1,0 +1,31 @@
+Comment,Designator,Footprint,JLCPCB Part #（optional）,DNP,Qty
+Kailh_MicroSwitch,"SW_M_1_1,SW_M_1_2,SW_M_2_1,SW_M_2_2",Akira_Ball_Parts:GM8.0,,DNP,4
+Rotary_Encoder,SCROLL_RING1,AkiraBallParts:Encoder_Ring,,DNP,1
+Volume_Knob,KNOB1,Akira_Ball_Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,,DNP,1
+AVR-ISP-6,ISP1,AkiraBallParts:SKEDD_6PinConnectingHole,,DNP,1
+ATMEGA328P-PU-ND,ATMEGA328P1,AkiraBallParts:DIP-28_AtMega328PU,,DNP,1
+Crystal_GND24,Y2,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,C13738,,1
+TPS73601DBV,VR1,Package_TO_SOT_SMD:SOT-23-5,C59200,,1
+USB_C_Receptacle_USB2.0,USB1,Akira_Ball_Parts:USB_C_16P_SMD_C3025063,C3025063,,1
+SW,"U1,U2","Akira_Ball_Parts:Switch SMD-4P,5.1x5.1mm",C318884,,2
+56K,R4,Resistor_SMD:R_0603_1608Metric,C23206,,1
+30K,R3,Resistor_SMD:R_0603_1608Metric,C22984,,1
+4.7K,"R2_1,R2_2",Resistor_SMD:R_0603_1608Metric,C23162,,2
+7.5K,"R2,R5",Resistor_SMD:R_0603_1608Metric,C23234,,2
+20R,"R1_12,R1_13",Resistor_SMD:R_0603_1608Metric,C22950,,2
+2R,"R1_9,R1_10,R1_11",Resistor_SMD:R_0603_1608Metric,C22977,,3
+33R,R1_7,Resistor_SMD:R_0603_1608Metric,C23140,,1
+10k,"R1_6,R1_8",Resistor_SMD:R_0603_1608Metric,C25804,,2
+1.5k,R1_5,Resistor_SMD:R_0603_1608Metric,C22843,,1
+47R,"R1_3,R1_4",Resistor_SMD:R_0603_1608Metric,C23182,,2
+5.1k,"R1_1,R1_2",Resistor_SMD:R_0603_1608Metric,C23186,,2
+10K,"R1,R6",Resistor_SMD:R_0603_1608Metric,C25804,,2
+~,"OLED1,PMW3360","AkiraBallParts:OLED_PinHeader_1x04_P2.54mm,Akira_Ball_Parts:PMW3360_2",,,2
+SN74LVC1T45DCK,"LS1,LS2,LS3,LS4",Package_TO_SOT_SMD:SOT-363_SC-70-6,C9382,,4
+Polyfuse,F1,Fuse:Fuse_0805_2012Metric,C269102,,1
+D_Small,"D_I_1,D_I_2,D_I_3,D_I_4,D_I_5",Diode_SMD:D_SOD-123,C81598,,5
+3.6V,"D1,D2",Diode_SMD:D_SOD-123,C22395553,,2
+4.7uF,"C10,C12",Capacitor_SMD:C_0805_2012Metric,C1779,,2
+1uF,C7,Capacitor_SMD:C_0603_1608Metric,C15849,,1
+100nF,"C4,C5,C6,C8,C9,C11",Capacitor_SMD:C_0603_1608Metric,C14663,,6
+12p,"C1,C2",Capacitor_SMD:C_0603_1608Metric,C38523,,2

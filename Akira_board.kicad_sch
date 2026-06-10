@@ -5723,7 +5723,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 33.02 217.424 0)
+		(at 33.02 213.614 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -5754,6 +5754,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "229c5cc1-56a1-4011-8f76-a08707ee5f53")
+	)
+	(junction
+		(at 33.02 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "260577ab-7101-43d5-baac-f5b94f90c88b")
 	)
 	(junction
 		(at 125.73 73.66)
@@ -5864,7 +5870,7 @@
 		(uuid "882f7195-0a8b-43b1-91fa-cb19d726736b")
 	)
 	(junction
-		(at 33.02 223.52)
+		(at 33.02 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90c6629f-70a6-43b7-8fc9-e89746ee4e2c")
@@ -5990,7 +5996,7 @@
 		(uuid "da77de4d-bdc7-4ef8-90cb-b2111bc5f202")
 	)
 	(junction
-		(at 52.07 223.52)
+		(at 52.07 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dee98b9f-aba6-4343-b25e-a0fc8ac38e1e")
@@ -6014,7 +6020,7 @@
 		(uuid "ef474d81-affa-4200-9a79-f542b7ee1db7")
 	)
 	(junction
-		(at 36.83 223.52)
+		(at 36.83 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efd7a714-1d38-4e6c-b820-e60aa4262b3b")
@@ -6231,7 +6237,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 223.52) (xy 33.02 223.52)
+			(xy 25.4 219.71) (xy 33.02 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6381,7 +6387,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 227.33) (xy 46.99 227.33)
+			(xy 52.07 223.52) (xy 46.99 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6411,7 +6417,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 223.52) (xy 53.34 236.22)
+			(xy 53.34 219.71) (xy 53.34 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6511,7 +6517,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 219.71) (xy 52.07 223.52)
+			(xy 52.07 215.9) (xy 52.07 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6528,6 +6534,16 @@
 			(type default)
 		)
 		(uuid "2c2c9b15-650d-40c0-9ce8-5fa75f0b7928")
+	)
+	(wire
+		(pts
+			(xy 33.02 236.22) (xy 36.83 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4f92eb-f93e-48f9-ba49-476d8dc4be59")
 	)
 	(wire
 		(pts
@@ -6561,7 +6577,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 223.52) (xy 52.07 227.33)
+			(xy 52.07 219.71) (xy 52.07 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6731,7 +6747,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 223.52) (xy 36.83 227.33)
+			(xy 36.83 219.71) (xy 36.83 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6791,13 +6807,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 219.71) (xy 36.83 223.52)
+			(xy 36.83 215.9) (xy 36.83 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3fceed96-48a9-42ce-968c-d2c6c0ad2381")
+	)
+	(wire
+		(pts
+			(xy 33.02 208.28) (xy 33.02 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe970c0-38c3-4a89-bc7f-0db763aec27b")
 	)
 	(wire
 		(pts
@@ -6841,7 +6867,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 223.52) (xy 33.02 223.52)
+			(xy 36.83 219.71) (xy 33.02 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6971,7 +6997,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 219.71) (xy 52.07 219.71)
+			(xy 46.99 215.9) (xy 52.07 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7541,16 +7567,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 210.82) (xy 33.02 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7895e8df-16e6-4cd8-b5f2-ce4a0e470f92")
-	)
-	(wire
-		(pts
 			(xy 220.98 34.29) (xy 218.44 34.29)
 		)
 		(stroke
@@ -7751,7 +7767,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 219.71) (xy 36.83 219.71)
+			(xy 41.91 215.9) (xy 36.83 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7921,6 +7937,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 234.95) (xy 33.02 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46dc1be-0487-4c1e-a04b-82fad284d859")
+	)
+	(wire
+		(pts
 			(xy 35.56 48.26) (xy 41.91 48.26)
 		)
 		(stroke
@@ -7951,7 +7977,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 223.52) (xy 53.34 223.52)
+			(xy 52.07 219.71) (xy 53.34 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8031,7 +8057,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 227.33) (xy 36.83 227.33)
+			(xy 41.91 223.52) (xy 36.83 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8291,6 +8317,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 226.06) (xy 33.02 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b00027-2b70-4b1c-b7d0-eb8a67b17e80")
+	)
+	(wire
+		(pts
 			(xy 359.41 180.34) (xy 363.22 180.34)
 		)
 		(stroke
@@ -8341,7 +8377,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 220.98) (xy 33.02 223.52)
+			(xy 33.02 217.17) (xy 33.02 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8891,7 +8927,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 236.22) (xy 36.83 236.22)
+			(xy 25.4 236.22) (xy 33.02 236.22)
 		)
 		(stroke
 			(width 0)
@@ -10680,7 +10716,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 25.4 223.52 180)
+		(at 25.4 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10689,7 +10725,7 @@
 		)
 		(uuid "fb1e6005-1c3f-48d9-866c-156eccbfd5dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 223.52 0)
+			(at 25.4 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10741,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063da4c15")
 		(property "Reference" "ATMEGA328P1"
 			(at 77.47 94.234 90)
@@ -11039,13 +11075,12 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "Akira_Ball_Parts:USB_C_16P_SMD_C3025063"
 			(at 31.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
@@ -11093,7 +11128,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C3025063"
 			(at 27.94 158.75 0)
 			(effects
 				(font
@@ -12336,7 +12371,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063dfd37a")
 		(property "Reference" "ISP1"
 			(at 113.5634 226.1616 0)
@@ -12583,7 +12618,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063f71fb9")
 		(property "Reference" "SCROLL_RING1"
 			(at 126.492 108.0516 0)
@@ -12691,7 +12726,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063f77967")
 		(property "Reference" "SW_M_1_1"
 			(at 122.6312 66.3448 90)
@@ -12799,7 +12834,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063f7a091")
 		(property "Reference" "KNOB1"
 			(at 121.0818 44.45 0)
@@ -12817,13 +12852,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Akira_Ball_Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 115.824 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -13286,7 +13320,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.02 217.17 180)
+		(at 33.02 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13294,7 +13328,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063fe8eaa")
 		(property "Reference" "R1"
-			(at 31.242 218.3384 0)
+			(at 31.242 214.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +13337,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 31.242 216.027 0)
+			(at 31.242 212.217 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13312,7 +13346,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 34.798 217.17 90)
+			(at 34.798 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13321,7 +13355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 217.17 0)
+			(at 33.02 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,7 +13364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 217.17 0)
+			(at 33.02 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13339,7 +13373,7 @@
 			)
 		)
 		(property "Digikey#" "738-RNMF12FTD10K0CT-ND"
-			(at 33.02 217.17 0)
+			(at 33.02 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,7 +13382,7 @@
 			)
 		)
 		(property "Part Check" ""
-			(at 33.02 217.17 0)
+			(at 33.02 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,7 +13391,7 @@
 			)
 		)
 		(property "Wattage" "1/10"
-			(at 33.02 217.17 0)
+			(at 33.02 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13366,7 +13400,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25804"
-			(at 33.02 217.17 0)
+			(at 33.02 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,7 +13430,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063fe949f")
 		(property "Reference" "SW_M_1_2"
 			(at 149.3012 66.3448 90)
@@ -13674,7 +13708,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063ff4b7e")
 		(property "Reference" "SW_M_2_1"
 			(at 122.6312 85.3948 90)
@@ -13887,7 +13921,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063ff4b8d")
 		(property "Reference" "SW_M_2_2"
 			(at 149.3012 85.3948 90)
@@ -14160,7 +14194,7 @@
 	)
 	(symbol
 		(lib_id "Akira_board-rescue:+5V-power")
-		(at 33.02 210.82 0)
+		(at 33.02 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14168,7 +14202,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064000de2")
 		(property "Reference" "#PWR0112"
-			(at 33.02 214.63 0)
+			(at 33.02 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +14211,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 33.401 206.4258 0)
+			(at 33.401 203.8858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14185,7 +14219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 210.82 0)
+			(at 33.02 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,7 +14228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 210.82 0)
+			(at 33.02 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14203,7 +14237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 210.82 0)
+			(at 33.02 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16154,7 +16188,7 @@
 	)
 	(symbol
 		(lib_id "Akira_Ball_Symbols:SMD-4P_Switch")
-		(at 44.45 223.52 90)
+		(at 44.45 219.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16162,7 +16196,7 @@
 		(dnp no)
 		(uuid "43673597-df84-478a-8e9e-2248807b7b1f")
 		(property "Reference" "U1"
-			(at 43.18 218.44 90)
+			(at 43.18 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16170,8 +16204,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 44.196 219.456 90)
+		(property "Value" "SW"
+			(at 44.196 215.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16180,7 +16214,7 @@
 			)
 		)
 		(property "Footprint" "Akira_Ball_Parts:Switch SMD-4P,5.1x5.1mm"
-			(at 44.45 223.52 0)
+			(at 44.45 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16189,7 +16223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 223.52 0)
+			(at 44.45 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +16232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 223.52 0)
+			(at 44.45 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16207,7 +16241,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C318884"
-			(at 44.45 223.52 0)
+			(at 44.45 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16678,6 +16712,109 @@
 			(project "Akira_board"
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 163.83 111.76 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58740f82-ce27-4ce6-a138-864903204299")
+		(property "Reference" "H8"
+			(at 166.37 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 166.37 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AkiraBallParts:M2 Mounting Hole"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey#" "x"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Check" "x"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" "x"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2b215d0-ebc1-4f65-90a4-52b39aef230a")
+		)
+		(instances
+			(project "Akira_board"
+				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -18007,6 +18144,109 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
+		(at 163.83 120.65 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9261181a-3829-4e55-aed8-c5047c315161")
+		(property "Reference" "H9"
+			(at 166.37 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 166.37 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AkiraBallParts:M2 Mounting Hole"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey#" "x"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Check" "x"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" "x"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30ade402-a242-4dca-bdf9-9ddcea27fd46")
+		)
+		(instances
+			(project "Akira_board"
+				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 163.83 85.09 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -18871,7 +19111,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SW"
 			(at 44.196 232.156 90)
 			(effects
 				(font
@@ -19904,6 +20144,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 33.02 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8c1b954-95bd-483a-b883-64fea88a089f")
+		(property "Reference" "R6"
+			(at 31.242 232.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 31.242 229.997 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.798 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey#" "738-RNMF12FTD10K0CT-ND"
+			(at 33.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Check" ""
+			(at 33.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Wattage" "1/10"
+			(at 33.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25804"
+			(at 33.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f68cfa2-2d04-46c9-8a20-974fb5b2cce0")
+		)
+		(pin "2"
+			(uuid "73b70e53-c06d-423a-9769-15190e325b57")
+		)
+		(instances
+			(project "Akira_board"
+				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 163.83 21.59 0)
 		(unit 1)
@@ -20308,7 +20653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AkiraBallParts:PMW3360_1"
+		(property "Footprint" "Akira_Ball_Parts:PMW3360_2"
 			(at 346.71 173.99 0)
 			(effects
 				(font
@@ -20709,6 +21054,71 @@
 			(project "Akira_board"
 				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Akira_board-rescue:+5V-power")
+		(at 33.02 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa93b63b-dad4-4ca7-b01e-d98bb844671b")
+		(property "Reference" "#PWR030"
+			(at 33.02 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 33.401 221.6658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a90f2870-90e1-4eb2-98f7-f5101ddcdf43")
+		)
+		(instances
+			(project "Akira_board"
+				(path "/6f79ab9c-e294-456a-a1e3-a27257d9f14e"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

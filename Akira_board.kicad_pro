@@ -60,74 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|177075001|57749999|1d78b66e-9632-4746-8855-ba0b6557a20b|28916e42-cbd2-428a-9600-12e6c6663e56",
-          ""
-        ],
-        [
-          "clearance|177075002|59099998|202e5d7d-046a-46be-94c1-9b620cea8eaf|0d45acd7-66df-4332-87b4-81912ec6a915",
-          ""
-        ],
-        [
-          "clearance|177925001|59099998|20b2ab05-087c-4243-bde9-58fccdec56bd|202e5d7d-046a-46be-94c1-9b620cea8eaf",
-          ""
-        ],
-        [
-          "clearance|177925002|57750000|28916e42-cbd2-428a-9600-12e6c6663e56|e071e9f4-91ac-4e48-b320-aec1bc599b33",
-          ""
-        ],
-        [
-          "clearance|178774999|59100002|3a87adc9-638c-481f-9179-c2f8b8ede292|20b2ab05-087c-4243-bde9-58fccdec56bd",
-          ""
-        ],
-        [
-          "clearance|178775000|57750001|e071e9f4-91ac-4e48-b320-aec1bc599b33|c666b180-cb3e-460d-99d2-55b69ab204a5",
-          ""
-        ],
-        [
-          "clearance|179625000|59100004|b48275ca-116a-4fe2-8e8f-69c0c8df2602|3a87adc9-638c-481f-9179-c2f8b8ede292",
-          ""
-        ],
-        [
-          "clearance|179625002|57749998|c666b180-cb3e-460d-99d2-55b69ab204a5|e0dbffdc-d229-475a-a2a1-617e4b8d0fd4",
-          ""
-        ],
-        [
-          "clearance|180475001|59099999|d97f5133-685a-488c-9170-797f124847ad|b48275ca-116a-4fe2-8e8f-69c0c8df2602",
-          ""
-        ],
-        [
-          "clearance|180475002|57749997|e0dbffdc-d229-475a-a2a1-617e4b8d0fd4|28d123fe-0ee0-47f4-89df-1225cca2996b",
-          ""
-        ],
-        [
-          "clearance|181324998|57750000|28d123fe-0ee0-47f4-89df-1225cca2996b|5aee8a90-7ff3-473e-84f2-76971c54e731",
-          ""
-        ],
-        [
-          "clearance|181325004|59100000|fbaecf95-d612-4f87-8ec6-b55c9d15e82a|d97f5133-685a-488c-9170-797f124847ad",
-          ""
-        ],
-        [
-          "clearance|182175002|57750003|5aee8a90-7ff3-473e-84f2-76971c54e731|a0ec4178-9d7d-49e7-b165-a0486eb59003",
-          ""
-        ],
-        [
-          "clearance|182175002|59100003|2f590429-88c5-415b-8c4e-d7008df8daa1|fbaecf95-d612-4f87-8ec6-b55c9d15e82a",
-          ""
-        ],
-        [
-          "courtyards_overlap|154404617|66247082|9b3ede9a-fdca-41fe-9168-8bfd94b0faae|d64bbb17-4476-470c-a6ba-cf133823bf1b",
-          ""
-        ],
-        [
-          "courtyards_overlap|157302719|66758100|6569f80b-4fd6-48f3-8958-07d570dbecce|9b3ede9a-fdca-41fe-9168-8bfd94b0faae",
-          ""
-        ],
-        [
-          "courtyards_overlap|160181771|67517158|6569f80b-4fd6-48f3-8958-07d570dbecce|cb33bff8-5515-455a-8ac2-9c78921e53ca",
-          ""
-        ],
-        [
           "padstack|115380001|55954999|513b14bf-8638-4c2e-b930-9ef16c68c863|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -142,7 +74,7 @@
       },
       "rule_severities": {
         "annular_width": "ignore",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
@@ -157,7 +89,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
-        "hole_clearance": "error",
+        "hole_clearance": "warning",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
         "holes_co_located": "warning",
@@ -769,9 +701,9 @@
       "idf": "",
       "netlist": "",
       "plot": "Production Files/PCB/Gerbers/",
-      "pos_files": "Production Files/PCB/PCBA/",
+      "pos_files": "Production Files/PCB/PCBA/Positions/",
       "specctra_dsn": "",
-      "step": "Production Files/PCB/KiCAD_3D model/Akira_board.step",
+      "step": "../../../Downloads/Akira_board.step",
       "svg": "",
       "vrml": ""
     },
@@ -779,7 +711,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Production Files\\PCB\\BOM.csv",
+    "bom_export_filename": "Production Files\\PCB\\PCBA\\BOMs\\Akira_board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -864,7 +796,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
@@ -880,13 +812,7 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [
-        {
-          "name": "JLCPCB Part #",
-          "url": false,
-          "visible": true
-        }
-      ],
+      "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
